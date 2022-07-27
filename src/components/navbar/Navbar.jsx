@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbarWrapper">
         <div className="navbarLeft">
-          <span className="logo">Lama App</span>
+          <span className="logo">Redux App</span>
           <span className="navbarLink">Home</span>
           <span className="navbarLink">About</span>
           <span className="navbarLink">Contact</span>

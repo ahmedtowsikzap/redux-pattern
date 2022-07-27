@@ -6,7 +6,7 @@ export default function Recommendation({ type }) {
     type === "user"
       ? "Reccomended for John"
       : type === "popular"
-      ? "Popular on Lama App"
+      ? "Popular on this app"
       : "Editor's choice";
 
   const img =

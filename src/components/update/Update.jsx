@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Update() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-
+ console.log(name,email)
   return (
     <div className="update">
       <div className="updateWrapper">
@@ -31,7 +31,7 @@ export default function Update() {
               <input
                 className="formInput"
                 type="text"
-                placeholder="John"
+                placeholder="John" onChange={ (e) => setName(e.target.value)}
               />
             </div>
             <div className="formItem">
@@ -40,6 +40,7 @@ export default function Update() {
                 className="formInput"
                 type="text"
                 placeholder="john@gmail.com"
+                onChange={ (e) => setEmail(e.target.value)}
               />
             </div>
             <div className="formItem">

@@ -48,7 +48,7 @@ export default function Update() {
               <input className="formInput" type="password" />
             </div>
             <button
-              className="updateButton"
+              className="updateButton" 
             >
               Update
             </button>
